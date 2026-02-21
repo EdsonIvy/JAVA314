@@ -1,0 +1,19 @@
+{
+  "java.project.sourcePaths": ["src"],  // Folder where your Java files are
+
+  "java.project.outputPath": "bin",  // Compiled .class files go here
+
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",  // Any external libraries inside lib folder
+
+    "c:\\javafx-sdk-17.0.18\\lib\\javafx.base.jar",      // JavaFX core
+    "c:\\javafx-sdk-17.0.18\\lib\\javafx.controls.jar",  // Buttons, labels, UI controls
+    "c:\\javafx-sdk-17.0.18\\lib\\javafx.fxml.jar",      // FXML support
+    "c:\\javafx-sdk-17.0.18\\lib\\javafx.graphics.jar",  // Graphics system
+    "c:\\javafx-sdk-17.0.18\\lib\\javafx.media.jar",     // Media (audio/video)
+    "c:\\javafx-sdk-17.0.18\\lib\\javafx.swing.jar",     // Swing integration
+    "c:\\javafx-sdk-17.0.18\\lib\\javafx.web.jar",       // WebView support
+    "c:\\javafx-sdk-17.0.18\\lib\\javafx-swt.jar",       // SWT support
+    "c:\\javafx-sdk-17.0.18\\lib\\mysql-connector-j-9.6.0.jar"  // MySQL database connector
+  ]
+}

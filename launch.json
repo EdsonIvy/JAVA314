@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",  // VS Code debug configuration version
+  "configurations": [
+    {
+        "type": "java",  // This is a Java application
+        "name": "JAVA314",  // Name shown in Run/Debug menu
+        "request": "launch",  // Launch the program
+        "mainClass": "JAVA314",  // Main class to run
+        "projectName": "Java314_cf17a2fd"  // Project folder name
+    },
+    {
+        "type": "java",  // Java application
+        "name": "Launch StaffManager",  // Name shown in Run menu
+        "request": "launch",  // Launch the program
+        "mainClass": "StaffManager",  // Main class to run
+        "vmArgs": "--module-path \"C:/javafx-sdk-17.0.18/lib\" --add-modules javafx.controls,javafx.fxml"  
+        // JavaFX library path and required modules
+    }
+  ]
+}
